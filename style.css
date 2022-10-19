@@ -25,6 +25,10 @@ body {
 .form-section {
     flex: 2;
     background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
 }
 
 .form-section > * {
@@ -34,6 +38,7 @@ body {
 
 .form-section .form-fields-section {
     background-color: white;
+    margin-bottom: 40px;
 }
 
 .form-grid {
