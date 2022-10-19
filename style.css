@@ -48,7 +48,7 @@ body {
 
 .form-section {
     flex: 2;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(250, 250, 250);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,15 +56,16 @@ body {
 }
 
 .form-section > div, .form-section > form > *{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 100px;
 }
 
 .form-section .form-fields-section {
     background-color: white;
     margin-bottom: 40px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 0px 5px 10px rgb(201, 201, 201);
 }
 
 .form-grid {
@@ -72,11 +73,22 @@ body {
     grid-template-columns: 1fr 1fr;
     column-gap: 50px;
     row-gap: 15px;
+    margin-top: 15px;
+}
+
+form label {
+    text-transform: uppercase;
+    font-size: 0.8rem;
 }
 
 .form-grid-item {
     display: flex;
     flex-direction: column;
+}
+
+.bigger-text {
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 .underscored {
