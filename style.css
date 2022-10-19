@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+}
+
+.background-section {
+    flex: 1;
+    background-image: url(./background-image.jpg);
+}
+
+.background-section > .logo {
+    background-color:rgb(0, 0, 0, 40%);
+    text-align: center;
+}
+
+.background-section > .credits {
+    color: white;
+    text-align: center;
+}
+
+.form-section {
+    flex: 2;
+    background-color: rgb(240, 240, 240);
+}
+
+.form-section > * {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.form-section .form-fields-section {
+    background-color: white;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 15px;
+}
+
+.form-grid-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.underscored {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
