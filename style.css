@@ -31,7 +31,7 @@ body {
     gap: 30px;
 }
 
-.form-section > * {
+.form-section > div, .form-section > form > *{
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -39,6 +39,8 @@ body {
 .form-section .form-fields-section {
     background-color: white;
     margin-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .form-grid {
