@@ -136,6 +136,7 @@ form input:focus {
 }
 
 #error-message {
+    height: 1em;
     color: red;
     font-size: small;
 }
