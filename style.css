@@ -96,6 +96,10 @@ form input {
     border-radius: 5px;
 }
 
+form input.error {
+    border-color: red;
+}
+
 form input:focus {
     outline: 0;
     border-color: blue;
