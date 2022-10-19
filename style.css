@@ -79,6 +79,7 @@ body {
 form label {
     text-transform: uppercase;
     font-size: 0.8rem;
+    letter-spacing: 0.1rem;
 }
 
 .form-grid-item {
