@@ -15,14 +15,30 @@ body {
 .background-section {
     flex: 1;
     background-image: url(./background-image.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 1%;
 }
 
 .background-section > .logo {
+    margin-top: 33%;
     background-color:rgb(0, 0, 0, 40%);
     font-family: norse-bold;
-    font-size: 8rem;
-    align-items: center;
+    font-size: 6rem;
+    text-align: center;
     color: white;
+    height: 15%;
+    padding: 15px;
+    top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-section > .logo > img {
+    height: 100%;
 }
 
 .background-section > .credits {
