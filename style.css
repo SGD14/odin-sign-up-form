@@ -88,6 +88,14 @@ form label {
     letter-spacing: 0.1rem;
 }
 
+form input {
+    font-size: 1.1rem;
+    padding: 4px;
+    padding-left: 10px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
 .form-grid-item {
     display: flex;
     flex-direction: column;
